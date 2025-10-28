@@ -35,6 +35,7 @@ h6 {
 /* Background */
 #css-zen-garden {
   background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
+  padding-left: 400px;
 }
 /* Page wrapper */
 .page-wrapper {
@@ -44,10 +45,42 @@ h6 {
   padding: 1em;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   max-width: 700px;
-  margin: 0 auto;
-  align-self: flex-start;
+  margin-top: 75px;
 }
 
+.design-selection{
+position: fixed;
+top:0px;
+left:0px;
+height :75px;
+Width: 500px;
+background:rgba(222, 116, 16, 0.9);
+overflow-y: auto;
+text-align: center;
+}
+
+.design-archives{
+text-align:center;
+position:fixed;
+top:0px;
+left:500px;
+background:rgba(222, 116, 16, 0.9);
+height :75px;
+Width: 500px;
+overflow-y: auto;
+}
+
+.zen-resources{
+text-align:center;
+position:fixed;
+top:0px;
+left:1000px;
+background:rgba(222, 116, 16, 0.9);
+height :75px;
+Width: 500px;
+overflow-y: auto;
+
+}
 #css-zen-garden {
   background: image
 }
